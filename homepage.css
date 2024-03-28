@@ -1,0 +1,46 @@
+body {
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; /* Center align the content */
+    background-color: #f4f4f4; /* Add a background color for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    font-size: 36px; /* Increase font size for better emphasis */
+    margin-top: 30px; /* Adjust the margin from the top */
+    font-weight: bold; 
+    color: #333; /* Add color to the title for better visibility */
+}
+
+#tabs {
+    margin-top: 20px; /* Adjust the margin from the top */
+}
+
+#tabs a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 5px;
+    border-radius: 5px; /* Reduce border radius for a cleaner look */
+    display: inline-block;
+    background-color: #fff; /* Add background color to the links */
+}
+
+#tabs a:hover {
+    background-color: #f0f0f0;
+}
+
+#content {
+    margin-top: 30px; /* Adjust the margin from the top */
+    text-align: left; /* Align the content to the left */
+    background-color: #fff; /* Add a background color to the content for better separation */
+    padding: 20px; /* Add padding for better readability */
+    border-radius: 5px; /* Add border radius for a cleaner look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+}
+
+#content p {
+    margin-bottom: 15px; /* Add margin bottom to paragraphs for better separation */
+}

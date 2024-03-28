@@ -1,0 +1,85 @@
+/* Apply font and center align content */
+body {
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; /* Center align the content */
+    background-color: #f4f4f4; /* Add a background color for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the main title */
+.title {
+    font-size: 32px;
+    margin-top: 50px; /* Adjust the margin from the top */
+    font-weight: bold; /* Make the title bold */
+}
+
+/* Style for the main content */
+.content {
+    margin-top: 50px; /* Adjust the margin from the top */
+    text-align: left; /* Align the content to the left */
+}
+
+/* Style for the navigation tabs */
+#tabs {
+    margin-top: 20px; /* Adjust the margin from the top */
+}
+
+/* Style for each tab link */
+#tabs a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 5px;
+    border-radius: 5px; /* Make tabs oval-shaped */
+    display: inline-block;
+    background-color: #fff; /* Add background color to the links */
+
+}
+
+/* Hover effect for tab links */
+#tabs a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Style for section headings */
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px; /* Adjust the margin from the top */
+}
+
+/* Style for bullet point lists */
+.bullet-points {
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* Style for unordered lists */
+.bullet-points ul {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0; /* Remove default padding */
+}
+
+/* Style for nested unordered lists */
+.bullet-points ul ul {
+    list-style-type: circle; /* Use circle bullets for indented items */
+    margin-left: 20px; /* Add indentation */
+}
+
+/* Style for the sidebar */
+.sidebar {
+    float: left;
+    width: 200px;
+    background-color: #d8bfd8;
+    padding: 20px;
+}
+
+/* Style for the main content area */
+.main-content {
+    overflow: hidden; /* Clear float */
+    padding: 20px;
+    background-color: #fff;
+    text-align: left; /* Align content to the left */
+}

@@ -1,0 +1,82 @@
+/* research.css */
+
+/* Body styles */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; /* Center align the content */
+    background-color: #f4f4f4; /* Add a background color for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Title styles */
+.title {
+    font-size: 36px; /* Increase font size for better emphasis */
+    margin-top: 30px; /* Adjust the margin from the top */
+    font-weight: bold; /* Make the title bold */
+    color: #333; /* Add color to the title for better visibility */
+}
+
+/* Content styles */
+.content {
+    margin-top: 30px; /* Adjust the margin from the top */
+    text-align: left; /* Align the content to the left */
+    background-color: #fff; /* Add a background color to the content for better separation */
+    padding: 20px; /* Add padding for better readability */
+    border-radius: 5px; /* Add border radius for a cleaner look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+}
+
+/* Navigation styles */
+#tabs {
+    margin-top: 20px; /* Adjust the margin from the top */
+}
+
+#tabs a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 5px;
+    border-radius: 5px; /* Reduce border radius for a cleaner look */
+    display: inline-block;
+    background-color: #fff; /* Add background color to the links */
+}
+
+#tabs a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Heading styles */
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px; /* Adjust the margin from the top */
+}
+
+/* Bullet points styles */
+.bullet-points {
+    margin-top: 20px; /* Adjust the margin from the top */
+}
+
+.bullet-points ul {
+    list-style-type: disc; /* Use disc bullets for main items */
+    padding-left: 20px; /* Add indentation */
+}
+
+.bullet-points ul ul {
+    list-style-type: circle; /* Use circle bullets for sub-items */
+    margin-left: 20px; /* Add further indentation */
+}
+
+/* Sidebar styles */
+.sidebar {
+    float: left;
+    width: 200px;
+    background-color: #d8bfd8;
+    padding: 20px;
+    border-radius: 5px; /* Add border radius for a cleaner look */
+    margin-top: 30px; /* Adjust the margin from the top */
+    margin-right: 20px; /* Add margin to the right for separation */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+}
